@@ -14,10 +14,14 @@ public class CardBase : ScriptableObject {
 	public int attack;
 	public int movement;
     public int clank;
+	public int removeClank;
 	public int draw;
 	public int victoryPoints;
+	public int gold;
 	public bool isGem;
 
+	[Header("Card Special")]
+	public bool isSpecial;
 
 	[Header("Shop Attributes")]
 	public int skillCost;
@@ -35,5 +39,8 @@ public class CardBase : ScriptableObject {
 	public int attackNeeded;
     public MonsterLoot monsterLoot;
 	public MonsterCondition monsterCondition;
+
+	[Header("Device")]
+	public bool isDevice;
 
 }

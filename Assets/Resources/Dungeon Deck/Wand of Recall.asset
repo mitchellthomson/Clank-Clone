@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d107a50ca74677341a426eb7c638169a, type: 3}
+  m_Name: Wand of Recall
+  m_EditorClassIdentifier: 
+  name: 
+  artwork: {fileID: 0}
+  skill: 0
+  attack: 0
+  movement: 0
+  clank: 0
+  removeClank: 0
+  draw: 0
+  victoryPoints: 0
+  gold: 0
+  isGem: 0
+  isSpecial: 0
+  skillCost: 0
+  aquire: 0
+  arrive: 0
+  dragonAttack: 0
+  danger: 0
+  isCompanion: 0
+  isMonster: 0
+  attackNeeded: 0
+  monsterLoot: 0
+  monsterCondition: 0
+  isDevice: 0
