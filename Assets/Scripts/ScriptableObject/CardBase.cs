@@ -15,7 +15,9 @@ public class CardBase : ScriptableObject {
 	public int movement;
     public int clank;
 	public int draw;
+	public int victoryPoints;
 	public bool isGem;
+
 
 	[Header("Shop Attributes")]
 	public int skillCost;
