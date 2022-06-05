@@ -12,21 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d107a50ca74677341a426eb7c638169a, type: 3}
   m_Name: Boots of Swiftness
   m_EditorClassIdentifier: 
-  name: 
-  artwork: {fileID: 0}
+  name: Boots of Swiftness
+  artwork: {fileID: 21300000, guid: dfe8349f2305d9c418fcd1f60db6a82d, type: 3}
   skill: 0
   attack: 0
-  movement: 0
+  movement: 3
   clank: 0
+  removeClank: 0
   draw: 0
-  victoryPoints: 0
+  victoryPoints: 3
+  gold: 0
   isGem: 0
-  skillCost: 0
-  aquire: 0
+  isSpecial: 0
+  skillCost: 5
+  aquire: 1
   arrive: 0
   dragonAttack: 0
   danger: 0
   isCompanion: 0
+  isRebel: 0
   isMonster: 0
   attackNeeded: 0
   monsterLoot: 0

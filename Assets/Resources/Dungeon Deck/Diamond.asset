@@ -12,22 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d107a50ca74677341a426eb7c638169a, type: 3}
   m_Name: Diamond
   m_EditorClassIdentifier: 
-  name: 
-  artwork: {fileID: 0}
+  name: Diamond
+  artwork: {fileID: 21300000, guid: 42969bfe0e374f34ca14a06af64a1cf5, type: 3}
   skill: 0
   attack: 0
   movement: 0
   clank: 0
-  draw: 0
-  victoryPoints: 0
-  isGem: 0
+  removeClank: 0
+  draw: 1
+  victoryPoints: 8
+  gold: 0
+  isGem: 1
   isSpecial: 0
-  skillCost: 0
-  aquire: 0
+  skillCost: 8
+  aquire: 1
   arrive: 0
-  dragonAttack: 0
+  dragonAttack: 1
   danger: 0
   isCompanion: 0
+  isRebel: 0
   isMonster: 0
   attackNeeded: 0
   monsterLoot: 0

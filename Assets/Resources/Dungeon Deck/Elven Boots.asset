@@ -12,22 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d107a50ca74677341a426eb7c638169a, type: 3}
   m_Name: Elven Boots
   m_EditorClassIdentifier: 
-  name: 
-  artwork: {fileID: 0}
-  skill: 0
+  name: Elven Boots
+  artwork: {fileID: 21300000, guid: efe1e9739c77e154282a64f933dd5286, type: 3}
+  skill: 1
   attack: 0
-  movement: 0
+  movement: 1
   clank: 0
-  draw: 0
-  victoryPoints: 0
+  removeClank: 0
+  draw: 1
+  victoryPoints: 2
+  gold: 0
   isGem: 0
   isSpecial: 0
-  skillCost: 0
+  skillCost: 4
   aquire: 0
   arrive: 0
   dragonAttack: 0
   danger: 0
   isCompanion: 0
+  isRebel: 0
   isMonster: 0
   attackNeeded: 0
   monsterLoot: 0

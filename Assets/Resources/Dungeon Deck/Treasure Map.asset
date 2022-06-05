@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d107a50ca74677341a426eb7c638169a, type: 3}
   m_Name: Treasure Map
   m_EditorClassIdentifier: 
-  name: 
-  artwork: {fileID: 0}
+  name: Treasure Map
+  artwork: {fileID: 21300000, guid: 5bfa859c53961ed4caab3cc185198335, type: 3}
   skill: 0
   attack: 0
   movement: 0
@@ -21,15 +21,16 @@ MonoBehaviour:
   removeClank: 0
   draw: 0
   victoryPoints: 0
-  gold: 0
+  gold: 5
   isGem: 0
   isSpecial: 0
-  skillCost: 0
+  skillCost: 6
   aquire: 0
   arrive: 0
   dragonAttack: 0
   danger: 0
   isCompanion: 0
+  isRebel: 0
   isMonster: 0
   attackNeeded: 0
   monsterLoot: 0

@@ -12,7 +12,7 @@ public class CardMaker : MonoBehaviour
 
     public void Start() 
     {
-        cards = Resources.LoadAll<CardBase>("Devices");
+        cards = Resources.LoadAll<CardBase>("Companions");
 
         foreach(var card in cards)
         {

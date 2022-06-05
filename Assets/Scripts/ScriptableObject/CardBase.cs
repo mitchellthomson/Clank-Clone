@@ -32,6 +32,7 @@ public class CardBase : ScriptableObject {
 
 	[Header("Companion")]
 	public bool isCompanion;
+	public bool isRebel;
 
 
 	[Header("Monster")]
