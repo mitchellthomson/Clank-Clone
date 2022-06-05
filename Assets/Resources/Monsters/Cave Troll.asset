@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d107a50ca74677341a426eb7c638169a, type: 3}
-  m_Name: Goblin
+  m_Name: Cave Troll
   m_EditorClassIdentifier: 
-  name: Goblin
-  artwork: {fileID: 21300000, guid: d4e7016a2d3166244adb24d999b66d37, type: 3}
+  name: Cave Troll
+  artwork: {fileID: 21300000, guid: d0c0fa1682c67c241853447e002920f3, type: 3}
   skill: 0
   attack: 0
   movement: 0
@@ -23,10 +23,10 @@ MonoBehaviour:
   skillCost: 0
   aquire: 0
   arrive: 0
-  dragonAttack: 0
+  dragonAttack: 1
   danger: 0
   isCompanion: 0
   isMonster: 1
-  attackNeeded: 2
+  attackNeeded: 4
   monsterLoot: 0
-  monsterCondition: 0
+  monsterCondition: 2
