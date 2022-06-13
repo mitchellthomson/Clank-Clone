@@ -11,6 +11,7 @@ public class DisplayCard : MonoBehaviour
     void Start()
     {
         spriteRenderer.sprite = card.artwork;
+        //print(card.name);
     }
 
 }
