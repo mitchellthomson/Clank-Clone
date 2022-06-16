@@ -8,9 +8,9 @@ public class DeckController : MonoBehaviour
     public List<GameObject> deckList = new List<GameObject>();
     public GameObject deck;
 
-    public void Awake() 
+    public void Start() 
     {
-        Shuffle(deckList);
+        //Shuffle(deckList);
     }
 
     public void Shuffle(List<GameObject> list)
