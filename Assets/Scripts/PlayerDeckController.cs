@@ -6,9 +6,8 @@ using UnityEngine;
 public class PlayerDeckController : MonoBehaviour
 {
     public List<GameObject> playerDeckList;
-    
 
-    public void Awake() 
+    public void Start() 
     {
         
     }

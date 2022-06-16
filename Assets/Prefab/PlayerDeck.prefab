@@ -38,19 +38,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6843556066396624614}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98e10749674e13e4d9a5571c799f5a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerDeckList:
-  - {fileID: 8816463205596415521, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 3339347985198438974, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 307749401798444632, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 2112708929480464754, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 7093782675064869925, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 5047627765706933052, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 9069396182754175965, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 7969784423488276002, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 6561139433905749481, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
-  - {fileID: 9148988061435994126, guid: 59b061b299c27064a923c3cb2c0385c2, type: 3}
+  - {fileID: 116272866671725608, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 116272865385646634, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 116272866457461869, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 116272866649474910, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 116272865849684632, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 116272866483127273, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 5915804769363739149, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 7534901576530990269, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 5638550497940058847, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  - {fileID: 5638550498431246910, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
