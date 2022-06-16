@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-
 public class DeckController : MonoBehaviour
 {
     public List<GameObject> deckList = new List<GameObject>();
-    
     public GameObject deck;
 
-    public void Start() 
+    public void Awake() 
     {
         Shuffle(deckList);
     }
@@ -39,5 +37,6 @@ public class DeckController : MonoBehaviour
             newCard.name = card.name;
             newCard.transform.parent = deck.transform;
         }
+        deckList.Clear();
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
+[ExecuteAlways]
 public class DeckSort : MonoBehaviour
 {
     public Transform unsortedDeck;
@@ -10,7 +11,7 @@ public class DeckSort : MonoBehaviour
     public List<GameObject> sortedList;
     public GameObject sortedDeck;
     
-    private void Start() 
+    private void Awake() 
     {
         var temp = new List<GameObject>();
         foreach (Transform child in unsortedDeck)
