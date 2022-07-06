@@ -11,6 +11,7 @@ public class DeckController : MonoBehaviour
     public void Start() 
     {
         //Shuffle(deckList);
+        //print(deckList[1]);
     }
 
     public void Shuffle(List<GameObject> list)
