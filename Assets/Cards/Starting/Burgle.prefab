@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2875567926982658604}
   - component: {fileID: 6168232416791099836}
+  - component: {fileID: 4460971281828485515}
   m_Layer: 0
   m_Name: Burgle
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: e590535b3b3ed5f4188a9c2d373bd642, type: 2}
   spriteRenderer: {fileID: 5491452443156834861}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4460971281828485515
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218233754235512522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

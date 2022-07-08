@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7249805152121516845}
   - component: {fileID: 7144809215017276371}
+  - component: {fileID: 8182662918666658671}
   m_Layer: 0
   m_Name: Apothecary
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 7e9ccb714dfc85c45b2cd0ae7dde6a98, type: 2}
   spriteRenderer: {fileID: 4170867141650321604}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8182662918666658671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645944189004721841}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6254123494779190081
 GameObject:
   m_ObjectHideFlags: 0

@@ -174,6 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5172972042189539564}
   - component: {fileID: 7230446268171591020}
+  - component: {fileID: 6194663222016507782}
   m_Layer: 0
   m_Name: Ladder (1)
   m_TagString: Untagged
@@ -211,6 +212,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 5478b13f034610a4dacb03c0caf61557, type: 2}
   spriteRenderer: {fileID: 7791030093551909802}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6194663222016507782
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225462290811672499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &225462291697764468
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,6 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5172972041846609707}
   - component: {fileID: 7230446268896363179}
+  - component: {fileID: 1125328509526678323}
   m_Layer: 0
   m_Name: Ladder (2)
   m_TagString: Untagged
@@ -258,6 +274,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 5478b13f034610a4dacb03c0caf61557, type: 2}
   spriteRenderer: {fileID: 7791030093349741677}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1125328509526678323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225462291697764468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &259733042492088280
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7500321991296721910}
   - component: {fileID: 6025164086211114084}
+  - component: {fileID: 7320845760330736569}
   m_Layer: 0
   m_Name: Dragon Shrine (2)
   m_TagString: Untagged
@@ -401,6 +432,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: d0ebe2f79de628444ac87eaa3bc9cf47, type: 2}
   spriteRenderer: {fileID: 1894344436639406724}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &7320845760330736569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289763646345650055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &289763647041914379
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7500321991489682042}
   - component: {fileID: 6025164086672469480}
+  - component: {fileID: 1232872719101691306}
   m_Layer: 0
   m_Name: Dragon Shrine (1)
   m_TagString: Untagged
@@ -448,6 +494,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: d0ebe2f79de628444ac87eaa3bc9cf47, type: 2}
   spriteRenderer: {fileID: 1894344435758613256}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1232872719101691306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289763647041914379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &294936036832421229
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,6 +778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 527361779673045768}
   - component: {fileID: 2594679749444318534}
+  - component: {fileID: 7619936747068483002}
   m_Layer: 0
   m_Name: Brilliance (1)
   m_TagString: Untagged
@@ -755,6 +816,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 13aac42d9f052c44a8416f8825d2e8de, type: 2}
   spriteRenderer: {fileID: 3683312894226471199}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &7619936747068483002
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320616112884065368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &338091815842885371
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +1032,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5117727343355843812}
   - component: {fileID: 6813868824342678617}
+  - component: {fileID: 3788761348119461306}
   m_Layer: 0
   m_Name: Watcher (1)
   m_TagString: Untagged
@@ -994,6 +1070,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 64cdba0ce8908fb43ac9604dc2cbfaa1, type: 2}
   spriteRenderer: {fileID: 1052346874632040339}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3788761348119461306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471803244293872788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &471803244697443794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,6 +1094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5117727342954108322}
   - component: {fileID: 6813868823941205279}
+  - component: {fileID: 6882492076848570099}
   m_Layer: 0
   m_Name: Watcher (2)
   m_TagString: Untagged
@@ -1041,6 +1132,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 64cdba0ce8908fb43ac9604dc2cbfaa1, type: 2}
   spriteRenderer: {fileID: 1052346873961869013}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6882492076848570099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471803244697443794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &471803246009038018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,6 +1156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5117727342050589874}
   - component: {fileID: 6813868825250898959}
+  - component: {fileID: 2805395164794352451}
   m_Layer: 0
   m_Name: Watcher (3)
   m_TagString: Untagged
@@ -1088,6 +1194,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 64cdba0ce8908fb43ac9604dc2cbfaa1, type: 2}
   spriteRenderer: {fileID: 1052346875334789061}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2805395164794352451
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471803246009038018}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &552309537562874206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,6 +1574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6080233766995042910}
   - component: {fileID: 3395526475086691921}
+  - component: {fileID: 8365030673904335690}
   m_Layer: 0
   m_Name: Teleporter (1)
   m_TagString: Untagged
@@ -1491,6 +1612,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 4eb2db80240b054429c0eaa587787e0e, type: 2}
   spriteRenderer: {fileID: 3940566366527237930}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8365030673904335690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589867224816041759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &589867226160984952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6080233768875290169}
   - component: {fileID: 3395526475352355382}
+  - component: {fileID: 8762545268022129682}
   m_Layer: 0
   m_Name: Teleporter (2)
   m_TagString: Untagged
@@ -1538,6 +1674,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 4eb2db80240b054429c0eaa587787e0e, type: 2}
   spriteRenderer: {fileID: 3940566364644926285}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8762545268022129682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589867226160984952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &636395234400020721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,6 +2108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4320560288872701236}
   - component: {fileID: 6261340796782724991}
+  - component: {fileID: 1325843053069781182}
   m_Layer: 0
   m_Name: Kobold (2)
   m_TagString: Untagged
@@ -1995,6 +2146,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: ecd792bd6fa274f45ba3c8712bb9c703, type: 2}
   spriteRenderer: {fileID: 2962125683306406813}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1325843053069781182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679768401159717372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &679768401353726659
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,6 +2170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4320560289066698251}
   - component: {fileID: 6261340796708265024}
+  - component: {fileID: 8178755059507892616}
   m_Layer: 0
   m_Name: Kobold (3)
   m_TagString: Untagged
@@ -2042,6 +2208,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: ecd792bd6fa274f45ba3c8712bb9c703, type: 2}
   spriteRenderer: {fileID: 2962125683097761954}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8178755059507892616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679768401353726659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &679768401540148649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,6 +2232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4320560289244672353}
   - component: {fileID: 6261340796584831786}
+  - component: {fileID: 5726898836415205323}
   m_Layer: 0
   m_Name: Kobold (1)
   m_TagString: Untagged
@@ -2089,6 +2270,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: ecd792bd6fa274f45ba3c8712bb9c703, type: 2}
   spriteRenderer: {fileID: 2962125683523243976}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5726898836415205323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679768401540148649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &704560716053112656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,6 +2938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7957004777782930170}
   - component: {fileID: 2081709559354980961}
+  - component: {fileID: 3672932997592656482}
   m_Layer: 0
   m_Name: Sapphire (3)
   m_TagString: Untagged
@@ -2780,6 +2976,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 9f10db464dfdb4e4eb59e7374d8386db, type: 2}
   spriteRenderer: {fileID: 9091288616368081754}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3672932997592656482
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930712067379718056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &930712067853161690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,6 +3000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7957004776092113288}
   - component: {fileID: 2081709561021696275}
+  - component: {fileID: 8247596065519114876}
   m_Layer: 0
   m_Name: Sapphire (2)
   m_TagString: Untagged
@@ -2827,6 +3038,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 9f10db464dfdb4e4eb59e7374d8386db, type: 2}
   spriteRenderer: {fileID: 9091288616985229352}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8247596065519114876
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930712067853161690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &930712067875309731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,6 +3062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7957004776080705009}
   - component: {fileID: 2081709561040180586}
+  - component: {fileID: 4539819624886261916}
   m_Layer: 0
   m_Name: Sapphire (1)
   m_TagString: Untagged
@@ -2874,6 +3100,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 9f10db464dfdb4e4eb59e7374d8386db, type: 2}
   spriteRenderer: {fileID: 9091288616962548817}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4539819624886261916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930712067875309731}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &969677361866000867
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,6 +3124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 64974588244001954}
   - component: {fileID: 722002894516393330}
+  - component: {fileID: 7946625371573663843}
   m_Layer: 0
   m_Name: The Queen of Hearts (1)
   m_TagString: Untagged
@@ -2921,6 +3162,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 25cbc6b71be3d6a41a323bc515645ca8, type: 2}
   spriteRenderer: {fileID: 1936065544945421239}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &7946625371573663843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969677361866000867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &999126955010891314
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,6 +3954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3369784159469526005}
   - component: {fileID: 5010472283667945574}
+  - component: {fileID: 3871051809118662445}
   m_Layer: 0
   m_Name: Sceptor of the Ape Lord (1)
   m_TagString: Untagged
@@ -3736,6 +3992,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a3e0bfd18bae2da40bad35a91ec6f794, type: 2}
   spriteRenderer: {fileID: 4272330034439712490}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3871051809118662445
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335418106198622398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1403191843430321957
 GameObject:
   m_ObjectHideFlags: 0
@@ -3746,6 +4016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2509539390192126520}
   - component: {fileID: 1561368389846265995}
+  - component: {fileID: 8131448932368210014}
   m_Layer: 0
   m_Name: The Vault (1)
   m_TagString: Untagged
@@ -3783,6 +4054,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 4433e1857a4ab7347a462703547a689e, type: 2}
   spriteRenderer: {fileID: 1282371207410609566}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8131448932368210014
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403191843430321957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1439450390983886416
 GameObject:
   m_ObjectHideFlags: 0
@@ -4437,6 +4722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7850233761512586070}
   - component: {fileID: 2254914201724634350}
+  - component: {fileID: 7873084786056298253}
   m_Layer: 0
   m_Name: Treasure Hunter (1)
   m_TagString: Untagged
@@ -4474,6 +4760,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 7f224e1f2d56f5f429a1e610d499f5df, type: 2}
   spriteRenderer: {fileID: 8610896323524993123}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &7873084786056298253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579667724517831044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1579667725453100522
 GameObject:
   m_ObjectHideFlags: 0
@@ -4484,6 +4784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7850233762733133624}
   - component: {fileID: 2254914200520831104}
+  - component: {fileID: 8262688241089022606}
   m_Layer: 0
   m_Name: Treasure Hunter (2)
   m_TagString: Untagged
@@ -4521,6 +4822,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 7f224e1f2d56f5f429a1e610d499f5df, type: 2}
   spriteRenderer: {fileID: 8610896322572866573}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8262688241089022606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579667725453100522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1586147080897507841
 GameObject:
   m_ObjectHideFlags: 0
@@ -5967,6 +6282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1766328416150476274}
   - component: {fileID: 1714945752787408756}
+  - component: {fileID: 4068531232816296278}
   m_Layer: 0
   m_Name: Wand of Wind (1)
   m_TagString: Untagged
@@ -6004,6 +6320,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 698f765a37ac96b46b01a27101451e6c, type: 2}
   spriteRenderer: {fileID: 7011398088627925433}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4068531232816296278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002369594460820617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2002499409120905244
 GameObject:
   m_ObjectHideFlags: 0
@@ -6110,6 +6440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7830715997340617656}
   - component: {fileID: 5818987747313912887}
+  - component: {fileID: 5125351522111779202}
   m_Layer: 0
   m_Name: Elven Dagger (1)
   m_TagString: Untagged
@@ -6147,6 +6478,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 25bb0a83cfac17345be310129e188ad7, type: 2}
   spriteRenderer: {fileID: 5676804196659703721}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5125351522111779202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072054012196849926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2098045849868491845
 GameObject:
   m_ObjectHideFlags: 0
@@ -6321,6 +6666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6667796732174321819}
   - component: {fileID: 8350289209492334268}
+  - component: {fileID: 1352342792854658178}
   m_Layer: 0
   m_Name: Amulet of Vigor (1)
   m_TagString: Untagged
@@ -6358,6 +6704,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 535b419c4be4ee54896fcebbb5b611de, type: 2}
   spriteRenderer: {fileID: 148583673442893408}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1352342792854658178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147794346781749335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2182374094191710782
 GameObject:
   m_ObjectHideFlags: 0
@@ -6368,6 +6728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3919623016710292597}
   - component: {fileID: 4566931582823687011}
+  - component: {fileID: 906160867126010994}
   m_Layer: 0
   m_Name: The Duke (1)
   m_TagString: Untagged
@@ -6405,6 +6766,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 83b247a26b437ee45b017e55a625f461, type: 2}
   spriteRenderer: {fileID: 5629418518364590065}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &906160867126010994
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2182374094191710782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2324249362149811866
 GameObject:
   m_ObjectHideFlags: 0
@@ -7265,6 +7640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 281046407527560854}
   - component: {fileID: 314538701346657896}
+  - component: {fileID: 8027942907747685405}
   m_Layer: 0
   m_Name: Apothecary (1)
   m_TagString: Untagged
@@ -7302,6 +7678,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 7e9ccb714dfc85c45b2cd0ae7dde6a98, type: 2}
   spriteRenderer: {fileID: 6817294219984573823}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8027942907747685405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2811289569637509898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2866187976486347480
 GameObject:
   m_ObjectHideFlags: 0
@@ -7736,6 +8126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143507636958750850}
   - component: {fileID: 7622169199541089071}
+  - component: {fileID: 5949400744882162141}
   m_Layer: 0
   m_Name: Archaeologist (1)
   m_TagString: Untagged
@@ -7773,6 +8164,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 1dbf91cd7c7aef04889a9f3e91edf8ae, type: 2}
   spriteRenderer: {fileID: 2245382532843407714}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5949400744882162141
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3298862432870036675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3298862434136450155
 GameObject:
   m_ObjectHideFlags: 0
@@ -7783,6 +8188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143507635810301994}
   - component: {fileID: 7622169198577181575}
+  - component: {fileID: 7005718486006150622}
   m_Layer: 0
   m_Name: Archaeologist (2)
   m_TagString: Untagged
@@ -7820,6 +8226,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 1dbf91cd7c7aef04889a9f3e91edf8ae, type: 2}
   spriteRenderer: {fileID: 2245382531542391242}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &7005718486006150622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3298862434136450155}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3391519144770233499
 GameObject:
   m_ObjectHideFlags: 0
@@ -8680,6 +9100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6628401280229545458}
   - component: {fileID: 6273312507037758142}
+  - component: {fileID: 4170854068206113419}
   m_Layer: 0
   m_Name: Wand of Recall (1)
   m_TagString: Untagged
@@ -8717,6 +9138,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: da9df43aca871d94fbe275bdc94401e2, type: 2}
   spriteRenderer: {fileID: 4318878089525717811}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4170854068206113419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548020218293688221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3548020219110277678
 GameObject:
   m_ObjectHideFlags: 0
@@ -8727,6 +9162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6628401278880301121}
   - component: {fileID: 6273312505707390733}
+  - component: {fileID: 6802827068660633464}
   m_Layer: 0
   m_Name: Wand of Recall (2)
   m_TagString: Untagged
@@ -8764,6 +9200,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: da9df43aca871d94fbe275bdc94401e2, type: 2}
   spriteRenderer: {fileID: 4318878088190606976}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6802827068660633464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548020219110277678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3578187987803707078
 GameObject:
   m_ObjectHideFlags: 0
@@ -8774,6 +9224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511120971898680397}
   - component: {fileID: 2332033320345249623}
+  - component: {fileID: 6056717282352487992}
   m_Layer: 0
   m_Name: Cave Troll (1)
   m_TagString: Untagged
@@ -8811,6 +9262,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: cbd5175738cd066468e29b1b6dbf0be4, type: 2}
   spriteRenderer: {fileID: 7640280907411023874}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6056717282352487992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578187987803707078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3580675368968224506
 GameObject:
   m_ObjectHideFlags: 0
@@ -9109,6 +9574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7634404348732969071}
   - component: {fileID: 3127500168338481331}
+  - component: {fileID: 5627629148162709942}
   m_Layer: 0
   m_Name: Tattle (2)
   m_TagString: Untagged
@@ -9146,6 +9612,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 9919990e7004fae4ebf62c4356f522b7, type: 2}
   spriteRenderer: {fileID: 5093442225368007082}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5627629148162709942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3683523827808559146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3683523828100321047
 GameObject:
   m_ObjectHideFlags: 0
@@ -9156,6 +9636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7634404347362754386}
   - component: {fileID: 3127500168617136014}
+  - component: {fileID: 8275686898138371454}
   m_Layer: 0
   m_Name: Tattle (1)
   m_TagString: Untagged
@@ -9193,6 +9674,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 9919990e7004fae4ebf62c4356f522b7, type: 2}
   spriteRenderer: {fileID: 5093442225629900439}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8275686898138371454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3683523828100321047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3708351921537013990
 GameObject:
   m_ObjectHideFlags: 0
@@ -9285,6 +9780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3367144572412597022}
   - component: {fileID: 2171997534551358532}
+  - component: {fileID: 487729992707172479}
   m_Layer: 0
   m_Name: Dragon's Eye (1)
   m_TagString: Untagged
@@ -9322,6 +9818,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 5f4bcd1cbeb14414a90763bdf8d34aaf, type: 2}
   spriteRenderer: {fileID: 2686599307127963832}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &487729992707172479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3710001507721675262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3787526006990618607
 GameObject:
   m_ObjectHideFlags: 0
@@ -9332,6 +9842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4995565574243905895}
   - component: {fileID: 6560393300758859952}
+  - component: {fileID: 2611871164293497059}
   m_Layer: 0
   m_Name: Dead Run (1)
   m_TagString: Untagged
@@ -9369,6 +9880,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 588c0610583a2ce4f82ad7f79a97b428, type: 2}
   spriteRenderer: {fileID: 8605884066043347453}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2611871164293497059
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3787526006990618607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3787526007144613933
 GameObject:
   m_ObjectHideFlags: 0
@@ -9379,6 +9904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4995565574389515941}
   - component: {fileID: 6560393300913137522}
+  - component: {fileID: 3621952712480905540}
   m_Layer: 0
   m_Name: Dead Run (2)
   m_TagString: Untagged
@@ -9416,6 +9942,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 588c0610583a2ce4f82ad7f79a97b428, type: 2}
   spriteRenderer: {fileID: 8605884065929197119}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3621952712480905540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3787526007144613933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3842547557716651410
 GameObject:
   m_ObjectHideFlags: 0
@@ -9672,6 +10212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1143533665859414345}
   - component: {fileID: 6048321564088474051}
+  - component: {fileID: 1286408439014001769}
   m_Layer: 0
   m_Name: Rebel Captain (1)
   m_TagString: Untagged
@@ -9709,6 +10250,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 59222ab2aaeb61d4a90557944b1a4966, type: 2}
   spriteRenderer: {fileID: 7405041717911847636}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1286408439014001769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865080888874679335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3873936186814916809
 GameObject:
   m_ObjectHideFlags: 0
@@ -9719,6 +10274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6765281406397040142}
   - component: {fileID: 7522343729482818708}
+  - component: {fileID: 1410214656896117411}
   m_Layer: 0
   m_Name: Mister Whiskers (1)
   m_TagString: Untagged
@@ -9756,6 +10312,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: bb5f5a7aa3a82cc41bde0e277e7b46bb, type: 2}
   spriteRenderer: {fileID: 6614550609073330212}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1410214656896117411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873936186814916809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3940653321206054314
 GameObject:
   m_ObjectHideFlags: 0
@@ -10314,6 +10884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467851636981331691}
   - component: {fileID: 8697935887210930281}
+  - component: {fileID: 6724370539892793724}
   m_Layer: 0
   m_Name: The Mountain King (1)
   m_TagString: Untagged
@@ -10351,6 +10922,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 62b59ee5fe7672242849d17988cd1129, type: 2}
   spriteRenderer: {fileID: 5233791496256764843}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6724370539892793724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4054691378352871570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4064038086589658597
 GameObject:
   m_ObjectHideFlags: 0
@@ -10443,6 +11028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2447371971734465704}
   - component: {fileID: 4033890014121442878}
+  - component: {fileID: 4518911149244339285}
   m_Layer: 0
   m_Name: Boots of Swiftness (1)
   m_TagString: Untagged
@@ -10480,6 +11066,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: fc793752f3759ce46979907547447688, type: 2}
   spriteRenderer: {fileID: 9141470090571797179}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4518911149244339285
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4137807324691528006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4146080754041161679
 GameObject:
   m_ObjectHideFlags: 0
@@ -11654,6 +12254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7347651062654246261}
   - component: {fileID: 8940161752801356142}
+  - component: {fileID: 1769829941436595532}
   m_Layer: 0
   m_Name: Swagger (2)
   m_TagString: Untagged
@@ -11691,6 +12292,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 56903c8f794d38645a28f79b6bd7ae5e, type: 2}
   spriteRenderer: {fileID: 3253400327639980261}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1769829941436595532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4717466800992633436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4717466801548852420
 GameObject:
   m_ObjectHideFlags: 0
@@ -11701,6 +12316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7347651062097912813}
   - component: {fileID: 8940161752236759030}
+  - component: {fileID: 2076255452121983692}
   m_Layer: 0
   m_Name: Swagger (1)
   m_TagString: Untagged
@@ -11738,6 +12354,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 56903c8f794d38645a28f79b6bd7ae5e, type: 2}
   spriteRenderer: {fileID: 3253400327147742845}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2076255452121983692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4717466801548852420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4742768644251703977
 GameObject:
   m_ObjectHideFlags: 0
@@ -11994,6 +12624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5202763840353265046}
   - component: {fileID: 801212168074522695}
+  - component: {fileID: 2676084752098509930}
   m_Layer: 0
   m_Name: Bracers of Agility (2)
   m_TagString: Untagged
@@ -12031,6 +12662,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 0a033b5b1668fba4b91fcfdcb8d734ca, type: 2}
   spriteRenderer: {fileID: 1398527073001475619}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2676084752098509930
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4793593135276325715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4793593136671827423
 GameObject:
   m_ObjectHideFlags: 0
@@ -12041,6 +12686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5202763840688143130}
   - component: {fileID: 801212167863611083}
+  - component: {fileID: 8339242984456671171}
   m_Layer: 0
   m_Name: Bracers of Agility (1)
   m_TagString: Untagged
@@ -12078,6 +12724,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 0a033b5b1668fba4b91fcfdcb8d734ca, type: 2}
   spriteRenderer: {fileID: 1398527074426376367}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8339242984456671171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4793593136671827423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5034278519414080291
 GameObject:
   m_ObjectHideFlags: 0
@@ -12088,6 +12748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9041401575800996862}
   - component: {fileID: 961315948551654108}
+  - component: {fileID: 168226981808095124}
   m_Layer: 0
   m_Name: Dwarven Peddler (1)
   m_TagString: Untagged
@@ -12125,6 +12786,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 2c55764039030284bbd1090d30fb2ece, type: 2}
   spriteRenderer: {fileID: 2862738704938997441}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &168226981808095124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5034278519414080291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5063206891016616826
 GameObject:
   m_ObjectHideFlags: 0
@@ -12135,6 +12810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6501850414387436466}
   - component: {fileID: 8193043284586326355}
+  - component: {fileID: 6017689559768280506}
   m_Layer: 0
   m_Name: MonkeyBot 3000 (1)
   m_TagString: Untagged
@@ -12172,6 +12848,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 75e16b2060609b7409318cc01951ca84, type: 2}
   spriteRenderer: {fileID: 3630455679430942865}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6017689559768280506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5063206891016616826}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5101734604181868132
 GameObject:
   m_ObjectHideFlags: 0
@@ -12976,6 +13666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7680565194802064204}
   - component: {fileID: 6769944751430594397}
+  - component: {fileID: 24383822406919525}
   m_Layer: 0
   m_Name: Treasure Map (1)
   m_TagString: Untagged
@@ -13013,6 +13704,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: b19fa09324c038945aeb1810fa48cf87, type: 2}
   spriteRenderer: {fileID: 6832160463657165183}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &24383822406919525
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5255427421500934917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5304561934717168028
 GameObject:
   m_ObjectHideFlags: 0
@@ -13461,6 +14166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6442640513677568511}
   - component: {fileID: 3855710577230334113}
+  - component: {fileID: 3846685193526147861}
   m_Layer: 0
   m_Name: Tunnel Guide (1)
   m_TagString: Untagged
@@ -13498,6 +14204,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 90cc797b1c1de234e814ee0756049d68, type: 2}
   spriteRenderer: {fileID: 4842846729440934144}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3846685193526147861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422150176532489069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5422150177045570967
 GameObject:
   m_ObjectHideFlags: 0
@@ -13508,6 +14228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6442640513184018181}
   - component: {fileID: 3855710576719351387}
+  - component: {fileID: 4541092649780594364}
   m_Layer: 0
   m_Name: Tunnel Guide (2)
   m_TagString: Untagged
@@ -13545,6 +14266,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 90cc797b1c1de234e814ee0756049d68, type: 2}
   spriteRenderer: {fileID: 4842846728927854586}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4541092649780594364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422150177045570967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5520908062254265638
 GameObject:
   m_ObjectHideFlags: 0
@@ -13555,6 +14290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3681594164825922837}
   - component: {fileID: 8991301679526519700}
+  - component: {fileID: 6662327582713134755}
   m_Layer: 0
   m_Name: Sleight of Hand (1)
   m_TagString: Untagged
@@ -13592,6 +14328,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 69447cfca479d874c9001f8186a0872e, type: 2}
   spriteRenderer: {fileID: 4218209614434678691}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6662327582713134755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520908062254265638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5520908063503247634
 GameObject:
   m_ObjectHideFlags: 0
@@ -13602,6 +14352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3681594166064415009}
   - component: {fileID: 8991301678619639712}
+  - component: {fileID: 7579642688866175779}
   m_Layer: 0
   m_Name: Sleight of Hand (2)
   m_TagString: Untagged
@@ -13639,6 +14390,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 69447cfca479d874c9001f8186a0872e, type: 2}
   spriteRenderer: {fileID: 4218209615406836631}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &7579642688866175779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520908063503247634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5535715523929281887
 GameObject:
   m_ObjectHideFlags: 0
@@ -13813,6 +14578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5858859628062697532}
   - component: {fileID: 5612736739731390322}
+  - component: {fileID: 2053590334818281101}
   m_Layer: 0
   m_Name: Sneak (1)
   m_TagString: Untagged
@@ -13850,6 +14616,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a87bc409abe8a134293e216f233a31a8, type: 2}
   spriteRenderer: {fileID: 4840971755984229093}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2053590334818281101
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710852378638381626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5710852379569155492
 GameObject:
   m_ObjectHideFlags: 0
@@ -13860,6 +14640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5858859627903154082}
   - component: {fileID: 5612736739589202156}
+  - component: {fileID: 2177800847164003043}
   m_Layer: 0
   m_Name: Sneak (2)
   m_TagString: Untagged
@@ -13897,6 +14678,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a87bc409abe8a134293e216f233a31a8, type: 2}
   spriteRenderer: {fileID: 4840971755036413307}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2177800847164003043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710852379569155492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5710924207741999945
 GameObject:
   m_ObjectHideFlags: 0
@@ -14071,6 +14866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5176914322844658240}
   - component: {fileID: 4473126062790186289}
+  - component: {fileID: 290333040354687250}
   m_Layer: 0
   m_Name: Animated Door (2)
   m_TagString: Untagged
@@ -14108,6 +14904,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 63315c4a414a0554982e2a6f46624c45, type: 2}
   spriteRenderer: {fileID: 7647169237622439848}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &290333040354687250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5718182255870222167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5718182256331977292
 GameObject:
   m_ObjectHideFlags: 0
@@ -14118,6 +14928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5176914321040754523}
   - component: {fileID: 4473126062245247018}
+  - component: {fileID: 4305316836634194632}
   m_Layer: 0
   m_Name: Animated Door (1)
   m_TagString: Untagged
@@ -14155,6 +14966,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 63315c4a414a0554982e2a6f46624c45, type: 2}
   spriteRenderer: {fileID: 7647169238100759219}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4305316836634194632
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5718182256331977292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5728447382231538149
 GameObject:
   m_ObjectHideFlags: 0
@@ -14165,6 +14990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8114562604092474957}
   - component: {fileID: 5665302463798728529}
+  - component: {fileID: 3955631108108313895}
   m_Layer: 0
   m_Name: Pickaxe (1)
   m_TagString: Untagged
@@ -14202,6 +15028,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: c1c39f6511de2454c940d27729b95913, type: 2}
   spriteRenderer: {fileID: 2260034024668723717}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3955631108108313895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5728447382231538149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5728447382954547887
 GameObject:
   m_ObjectHideFlags: 0
@@ -14212,6 +15052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8114562605884966151}
   - component: {fileID: 5665302464408491035}
+  - component: {fileID: 476199166984092820}
   m_Layer: 0
   m_Name: Pickaxe (2)
   m_TagString: Untagged
@@ -14249,6 +15090,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: c1c39f6511de2454c940d27729b95913, type: 2}
   spriteRenderer: {fileID: 2260034025383278927}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &476199166984092820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5728447382954547887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5754943465838823980
 GameObject:
   m_ObjectHideFlags: 0
@@ -14697,6 +15552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4282936966272578464}
   - component: {fileID: 1722300843377000535}
+  - component: {fileID: 3375210957426902887}
   m_Layer: 0
   m_Name: Underworld Dealing (1)
   m_TagString: Untagged
@@ -14734,6 +15590,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 997d1bd2a2c78e5419960961cb4d4611, type: 2}
   spriteRenderer: {fileID: 2529780244808175757}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3375210957426902887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5904903546759820868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5928208694671419493
 GameObject:
   m_ObjectHideFlags: 0
@@ -14936,6 +15806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4555148520132871620}
   - component: {fileID: 2153608539805181712}
+  - component: {fileID: 6814960244780231829}
   m_Layer: 0
   m_Name: Emerald (1)
   m_TagString: Untagged
@@ -14973,6 +15844,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: c2c62b2a8e625704981e81353a8726f6, type: 2}
   spriteRenderer: {fileID: 2432784315743757887}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6814960244780231829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5939693206334273822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5939693206681677820
 GameObject:
   m_ObjectHideFlags: 0
@@ -14983,6 +15868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4555148520054559526}
   - component: {fileID: 2153608540823024114}
+  - component: {fileID: 335523158885995391}
   m_Layer: 0
   m_Name: Emerald (2)
   m_TagString: Untagged
@@ -15020,6 +15906,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: c2c62b2a8e625704981e81353a8726f6, type: 2}
   spriteRenderer: {fileID: 2432784315933356253}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &335523158885995391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5939693206681677820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5983083878774299334
 GameObject:
   m_ObjectHideFlags: 0
@@ -15030,6 +15930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7370643211803584440}
   - component: {fileID: 4529253186204585394}
+  - component: {fileID: 5388889416082954422}
   m_Layer: 0
   m_Name: Lucky Coin (2)
   m_TagString: Untagged
@@ -15067,6 +15968,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 5c15c53730297a04e82375d2c14a7888, type: 2}
   spriteRenderer: {fileID: 80494253431293839}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5388889416082954422
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5983083878774299334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5983083879434717417
 GameObject:
   m_ObjectHideFlags: 0
@@ -15077,6 +15992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7370643211390662039}
   - component: {fileID: 4529253186600443805}
+  - component: {fileID: 6522009104288191520}
   m_Layer: 0
   m_Name: Lucky Coin (1)
   m_TagString: Untagged
@@ -15114,6 +16030,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 5c15c53730297a04e82375d2c14a7888, type: 2}
   spriteRenderer: {fileID: 80494254108726688}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6522009104288191520
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5983083879434717417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6031206637953887430
 GameObject:
   m_ObjectHideFlags: 0
@@ -15288,6 +16218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5865462962527630797}
   - component: {fileID: 4129995440171805681}
+  - component: {fileID: 3673118830396356896}
   m_Layer: 0
   m_Name: Ruby (1)
   m_TagString: Untagged
@@ -15325,6 +16256,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a12c6c4315baa92438d746f6126da2b3, type: 2}
   spriteRenderer: {fileID: 2659300110647034672}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3673118830396356896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077148767934983368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6077148768977515663
 GameObject:
   m_ObjectHideFlags: 0
@@ -15335,6 +16280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5865462961464126858}
   - component: {fileID: 4129995441230099382}
+  - component: {fileID: 6336021172325940896}
   m_Layer: 0
   m_Name: Ruby (2)
   m_TagString: Untagged
@@ -15372,6 +16318,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a12c6c4315baa92438d746f6126da2b3, type: 2}
   spriteRenderer: {fileID: 2659300109596679031}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6336021172325940896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077148768977515663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6107616930767674378
 GameObject:
   m_ObjectHideFlags: 0
@@ -15546,6 +16506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6347376410865006078}
   - component: {fileID: 9180070766555008878}
+  - component: {fileID: 977154145830718297}
   m_Layer: 0
   m_Name: Ogre (1)
   m_TagString: Untagged
@@ -15583,6 +16544,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 191cdb764fbb1de42b565ea685fea1e1, type: 2}
   spriteRenderer: {fileID: 5759895363097711583}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &977154145830718297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6166092387931280998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6166092388709155537
 GameObject:
   m_ObjectHideFlags: 0
@@ -15593,6 +16568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6347376411691508041}
   - component: {fileID: 9180070766843534297}
+  - component: {fileID: 4279955467965480605}
   m_Layer: 0
   m_Name: Ogre (2)
   m_TagString: Untagged
@@ -15630,6 +16606,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 191cdb764fbb1de42b565ea685fea1e1, type: 2}
   spriteRenderer: {fileID: 5759895363939354472}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4279955467965480605
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6166092388709155537}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6194151701570529932
 GameObject:
   m_ObjectHideFlags: 0
@@ -15804,6 +16794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3619484404443459391}
   - component: {fileID: 5417116499218562627}
+  - component: {fileID: 5619579907603555322}
   m_Layer: 0
   m_Name: Invoker of the Ancients (1)
   m_TagString: Untagged
@@ -15841,6 +16832,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: f681055ccd8e4e944a76b9a8967d5167, type: 2}
   spriteRenderer: {fileID: 7176751904543629193}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5619579907603555322
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211790987026464719}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6278726156306004174
 GameObject:
   m_ObjectHideFlags: 0
@@ -16755,6 +17760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8159913398669985833}
   - component: {fileID: 2809894049735260794}
+  - component: {fileID: 6115244481529243824}
   m_Layer: 0
   m_Name: Singing Sword (1)
   m_TagString: Untagged
@@ -16792,6 +17798,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: b1e9f41b1f4c403418c3e9f37fa3cd39, type: 2}
   spriteRenderer: {fileID: 1173062509661064667}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6115244481529243824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6446638959253157944}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6532205559116181697
 GameObject:
   m_ObjectHideFlags: 0
@@ -16898,6 +17918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3921115684522235276}
   - component: {fileID: 995546960322593079}
+  - component: {fileID: 1042093183028126304}
   m_Layer: 0
   m_Name: Gem Collector (1)
   m_TagString: Untagged
@@ -16935,6 +17956,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: d6bcf74f627f94343854b100ce7a7039, type: 2}
   spriteRenderer: {fileID: 1217706492667747508}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1042093183028126304
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6557136362767440856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6568335313454337335
 GameObject:
   m_ObjectHideFlags: 0
@@ -16945,6 +17980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3548385215440774501}
   - component: {fileID: 5244511493384729430}
+  - component: {fileID: 6870213813685467078}
   m_Layer: 0
   m_Name: Crystal Golem (2)
   m_TagString: Untagged
@@ -16982,6 +18018,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 08c1575fe08a4d74a881a0acce38d668, type: 2}
   spriteRenderer: {fileID: 8444211301803561809}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6870213813685467078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568335313454337335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6568335313862833248
 GameObject:
   m_ObjectHideFlags: 0
@@ -16992,6 +18042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3548385215849389106}
   - component: {fileID: 5244511493789927937}
+  - component: {fileID: 5207680286382257011}
   m_Layer: 0
   m_Name: Crystal Golem (1)
   m_TagString: Untagged
@@ -17029,6 +18080,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 08c1575fe08a4d74a881a0acce38d668, type: 2}
   spriteRenderer: {fileID: 8444211301936015878}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5207680286382257011
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6568335313862833248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6617621833964543985
 GameObject:
   m_ObjectHideFlags: 0
@@ -17039,6 +18104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5706194397732252009}
   - component: {fileID: 6381296680188851880}
+  - component: {fileID: 913432304685543998}
   m_Layer: 0
   m_Name: Belcher (1)
   m_TagString: Untagged
@@ -17076,6 +18142,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 18852a651ff8f8140a680c041d5a3e31, type: 2}
   spriteRenderer: {fileID: 7553324023197269293}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &913432304685543998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6617621833964543985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6617621835779498233
 GameObject:
   m_ObjectHideFlags: 0
@@ -17086,6 +18166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5706194395933808225}
   - component: {fileID: 6381296678793316768}
+  - component: {fileID: 4956553947313605775}
   m_Layer: 0
   m_Name: Belcher (2)
   m_TagString: Untagged
@@ -17123,6 +18204,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 18852a651ff8f8140a680c041d5a3e31, type: 2}
   spriteRenderer: {fileID: 7553324025020858917}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4956553947313605775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6617621835779498233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6641023653269266936
 GameObject:
   m_ObjectHideFlags: 0
@@ -17619,6 +18714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135888477008335886}
   - component: {fileID: 5164785454807086838}
+  - component: {fileID: 241317122389311623}
   m_Layer: 0
   m_Name: Rebel Miner (1)
   m_TagString: Untagged
@@ -17656,6 +18752,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 845c2fe5014cf6748afe1d73826473bf, type: 2}
   spriteRenderer: {fileID: 3872017061177901230}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &241317122389311623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6841749473279402818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6855405815902902834
 GameObject:
   m_ObjectHideFlags: 0
@@ -17666,6 +18776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143329314163999831}
   - component: {fileID: 5017520206171860101}
+  - component: {fileID: 1984104910713730124}
   m_Layer: 0
   m_Name: Orc Grunt (1)
   m_TagString: Untagged
@@ -17703,6 +18814,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 08704c65fc7c33c4096f1d13a43978c0, type: 2}
   spriteRenderer: {fileID: 5322377611169749793}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1984104910713730124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855405815902902834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6855405816395802029
 GameObject:
   m_ObjectHideFlags: 0
@@ -17713,6 +18838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143329313847278536}
   - component: {fileID: 5017520206526206746}
+  - component: {fileID: 6980611843512934827}
   m_Layer: 0
   m_Name: Orc Grunt (2)
   m_TagString: Untagged
@@ -17750,6 +18876,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 08704c65fc7c33c4096f1d13a43978c0, type: 2}
   spriteRenderer: {fileID: 5322377610848822462}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6980611843512934827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855405816395802029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6855405817087208502
 GameObject:
   m_ObjectHideFlags: 0
@@ -17760,6 +18900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143329313181037139}
   - component: {fileID: 5017520207151553153}
+  - component: {fileID: 4866932624866810886}
   m_Layer: 0
   m_Name: Orc Grunt (3)
   m_TagString: Untagged
@@ -17797,6 +18938,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 08704c65fc7c33c4096f1d13a43978c0, type: 2}
   spriteRenderer: {fileID: 5322377610140380453}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4866932624866810886
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855405817087208502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6909727621768608051
 GameObject:
   m_ObjectHideFlags: 0
@@ -18423,6 +19578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9125943428501210648}
   - component: {fileID: 7578916199650197560}
+  - component: {fileID: 3573306338167837847}
   m_Layer: 0
   m_Name: Elven Cloak (1)
   m_TagString: Untagged
@@ -18460,6 +19616,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a15556129c8d3494397b3c0c79f8bfc6, type: 2}
   spriteRenderer: {fileID: 5713364569589504370}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3573306338167837847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7102837925093990051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7182059690753235899
 GameObject:
   m_ObjectHideFlags: 0
@@ -18470,6 +19640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3479712580310628519}
   - component: {fileID: 922971719473144474}
+  - component: {fileID: 7681690021844454581}
   m_Layer: 0
   m_Name: Kobold Merchant (1)
   m_TagString: Untagged
@@ -18507,6 +19678,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: bac1c77c53ada1c49bc656f12cb91996, type: 2}
   spriteRenderer: {fileID: 3334331249417557898}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &7681690021844454581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7182059690753235899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7311845400320845904
 GameObject:
   m_ObjectHideFlags: 0
@@ -19051,6 +20236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5952176584225996819}
   - component: {fileID: 422232510392873557}
+  - component: {fileID: 6132624437416559043}
   m_Layer: 0
   m_Name: Cleric of the Sun (1)
   m_TagString: Untagged
@@ -19088,6 +20274,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 317a60e7456bb4847b94a26787fd5428, type: 2}
   spriteRenderer: {fileID: 7604003876766380958}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6132624437416559043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7443958112327156406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7443958113404695194
 GameObject:
   m_ObjectHideFlags: 0
@@ -19098,6 +20298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5952176585301438527}
   - component: {fileID: 422232511472255609}
+  - component: {fileID: 3994059378024759324}
   m_Layer: 0
   m_Name: Cleric of the Sun (2)
   m_TagString: Untagged
@@ -19135,6 +20336,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 317a60e7456bb4847b94a26787fd5428, type: 2}
   spriteRenderer: {fileID: 7604003875688809394}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3994059378024759324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7443958113404695194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7475360918302848958
 GameObject:
   m_ObjectHideFlags: 0
@@ -19529,6 +20744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7596004752903621765}
   - component: {fileID: 3620408477946909946}
+  - component: {fileID: 3242104922065422410}
   m_Layer: 0
   m_Name: Search (2)
   m_TagString: Untagged
@@ -19566,6 +20782,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: b141b66f1496ff741a5c6e4ac3d4af2f, type: 2}
   spriteRenderer: {fileID: 6432976063164147319}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3242104922065422410
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7541939426406247272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7541939427365929864
 GameObject:
   m_ObjectHideFlags: 0
@@ -19576,6 +20806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7596004751966348389}
   - component: {fileID: 3620408479124782106}
+  - component: {fileID: 2351860499414406117}
   m_Layer: 0
   m_Name: Search (1)
   m_TagString: Untagged
@@ -19613,6 +20844,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: b141b66f1496ff741a5c6e4ac3d4af2f, type: 2}
   spriteRenderer: {fileID: 6432976062210150039}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2351860499414406117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7541939427365929864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7579693062384949639
 GameObject:
   m_ObjectHideFlags: 0
@@ -19815,6 +21060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398007263593551686}
   - component: {fileID: 5626986009778504605}
+  - component: {fileID: 6284477098647972978}
   m_Layer: 0
   m_Name: Silver Spear (2)
   m_TagString: Untagged
@@ -19852,6 +21098,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: c5453caf6f6dd2a4a914cff4d1d05142, type: 2}
   spriteRenderer: {fileID: 6013490495410615106}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6284477098647972978
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7792272645816349913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7792272647220032672
 GameObject:
   m_ObjectHideFlags: 0
@@ -19862,6 +21122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398007265130338111}
   - component: {fileID: 5626986008229331940}
+  - component: {fileID: 4773311669939084809}
   m_Layer: 0
   m_Name: Silver Spear (1)
   m_TagString: Untagged
@@ -19899,6 +21160,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: c5453caf6f6dd2a4a914cff4d1d05142, type: 2}
   spriteRenderer: {fileID: 6013490496822424379}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4773311669939084809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7792272647220032672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7845175033855768995
 GameObject:
   m_ObjectHideFlags: 0
@@ -20443,6 +21718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5569865447366777888}
   - component: {fileID: 3966209413063237145}
+  - component: {fileID: 2240445689770994090}
   m_Layer: 0
   m_Name: Master Burglar (1)
   m_TagString: Untagged
@@ -20480,6 +21756,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: d616ce704abeebd4bb2668a2bc009ead, type: 2}
   spriteRenderer: {fileID: 6806556301840605041}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2240445689770994090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8050990146218464593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8050990146663901210
 GameObject:
   m_ObjectHideFlags: 0
@@ -20490,6 +21780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5569865446621127019}
   - component: {fileID: 3966209413825831762}
+  - component: {fileID: 460075832424793562}
   m_Layer: 0
   m_Name: Master Burglar (2)
   m_TagString: Untagged
@@ -20527,6 +21818,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: d616ce704abeebd4bb2668a2bc009ead, type: 2}
   spriteRenderer: {fileID: 6806556302587732538}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &460075832424793562
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8050990146663901210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8054798545138333286
 GameObject:
   m_ObjectHideFlags: 0
@@ -20715,6 +22020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8161879941212563811}
   - component: {fileID: 4728053583843321376}
+  - component: {fileID: 5245571027982490280}
   m_Layer: 0
   m_Name: Rebel Soldier (1)
   m_TagString: Untagged
@@ -20752,6 +22058,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 321b5f46213a9ba4fb6ddf4af7b10740, type: 2}
   spriteRenderer: {fileID: 9180455272946772708}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5245571027982490280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172154963490016177}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8227794002810011059
 GameObject:
   m_ObjectHideFlags: 0
@@ -20858,6 +22178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831454891326615049}
   - component: {fileID: 3470807146382714908}
+  - component: {fileID: 656085147747480559}
   m_Layer: 0
   m_Name: Diamond (1)
   m_TagString: Untagged
@@ -20895,6 +22216,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: bc344ff0881be6144ab1c73a9c28cb0a, type: 2}
   spriteRenderer: {fileID: 6291667726019337112}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &656085147747480559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258857616332782382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8266741202681374871
 GameObject:
   m_ObjectHideFlags: 0
@@ -21069,6 +22404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3814551389418263051}
   - component: {fileID: 6522944230642487430}
+  - component: {fileID: 5283050375106956200}
   m_Layer: 0
   m_Name: Flying Carpet (1)
   m_TagString: Untagged
@@ -21106,6 +22442,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a24e1b18e2ef383478cf398da4724e61, type: 2}
   spriteRenderer: {fileID: 7660540517841671571}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5283050375106956200
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385690370526342889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8456169830954360509
 GameObject:
   m_ObjectHideFlags: 0
@@ -21116,6 +22466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7108294502588616348}
   - component: {fileID: 2842342499665408293}
+  - component: {fileID: 6318278150589829092}
   m_Layer: 0
   m_Name: Shrine (3)
   m_TagString: Untagged
@@ -21153,6 +22504,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: fcba74a697ce3ad4184acf9a4ccd8962, type: 2}
   spriteRenderer: {fileID: 5406224034584693132}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6318278150589829092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8456169830954360509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8456169831799627537
 GameObject:
   m_ObjectHideFlags: 0
@@ -21163,6 +22528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7108294501470981936}
   - component: {fileID: 2842342500766527625}
+  - component: {fileID: 529866261675339063}
   m_Layer: 0
   m_Name: Shrine (2)
   m_TagString: Untagged
@@ -21200,6 +22566,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: fcba74a697ce3ad4184acf9a4ccd8962, type: 2}
   spriteRenderer: {fileID: 5406224035484518432}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &529866261675339063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8456169831799627537}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8456169832215143833
 GameObject:
   m_ObjectHideFlags: 0
@@ -21210,6 +22590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7108294501861307832}
   - component: {fileID: 2842342500384590337}
+  - component: {fileID: 8627809878570899254}
   m_Layer: 0
   m_Name: Shrine (1)
   m_TagString: Untagged
@@ -21247,6 +22628,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: fcba74a697ce3ad4184acf9a4ccd8962, type: 2}
   spriteRenderer: {fileID: 5406224034801103528}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &8627809878570899254
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8456169832215143833}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8463037018340953777
 GameObject:
   m_ObjectHideFlags: 0
@@ -21777,6 +23172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6357531580562845898}
   - component: {fileID: 272811886603809371}
+  - component: {fileID: 3448345491708682426}
   m_Layer: 0
   m_Name: Wizard (1)
   m_TagString: Untagged
@@ -21814,6 +23210,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: ac9d46867a7d7564e85ab97e4103021b, type: 2}
   spriteRenderer: {fileID: 6213275076530757847}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3448345491708682426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8644641017756605509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8692713724417617322
 GameObject:
   m_ObjectHideFlags: 0
@@ -22166,6 +23576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4479460364486408492}
   - component: {fileID: 9169014667496462320}
+  - component: {fileID: 5375608940345944920}
   m_Layer: 0
   m_Name: Overlord (1)
   m_TagString: Untagged
@@ -22203,6 +23614,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 45f3fb58351d14242be97cd2a372524b, type: 2}
   spriteRenderer: {fileID: 3046795074291836391}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5375608940345944920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937317508533887342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8937317509236021946
 GameObject:
   m_ObjectHideFlags: 0
@@ -22213,6 +23638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4479460364329255672}
   - component: {fileID: 9169014666877725732}
+  - component: {fileID: 697864469862645526}
   m_Layer: 0
   m_Name: Overlord (2)
   m_TagString: Untagged
@@ -22250,6 +23676,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 45f3fb58351d14242be97cd2a372524b, type: 2}
   spriteRenderer: {fileID: 3046795073334140467}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &697864469862645526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937317509236021946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8976704687049908612
 GameObject:
   m_ObjectHideFlags: 0
@@ -22260,6 +23700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5039698756284211284}
   - component: {fileID: 1955833429399926786}
+  - component: {fileID: 3371885043511823329}
   m_Layer: 0
   m_Name: Rebel Scout (1)
   m_TagString: Untagged
@@ -22297,6 +23738,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: f811761e5678fd246aeb04b0fa95a434, type: 2}
   spriteRenderer: {fileID: 7765285118454478137}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3371885043511823329
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976704687049908612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8991223167368858291
 GameObject:
   m_ObjectHideFlags: 0
@@ -22307,6 +23762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6344253381735795934}
   - component: {fileID: 2557550774978030632}
+  - component: {fileID: 6103618597267975359}
   m_Layer: 0
   m_Name: Elven Boots (1)
   m_TagString: Untagged
@@ -22344,6 +23800,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: dac7d06c7f9aa664bad837a54880d687, type: 2}
   spriteRenderer: {fileID: 2562486674652517484}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6103618597267975359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8991223167368858291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9015377753982377363
 GameObject:
   m_ObjectHideFlags: 0
@@ -22354,6 +23824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6516576546893116041}
   - component: {fileID: 591106719916600667}
+  - component: {fileID: 3965064809354636104}
   m_Layer: 0
   m_Name: Move Silently (2)
   m_TagString: Untagged
@@ -22391,6 +23862,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 434439055c5a3954698f4d829005c215, type: 2}
   spriteRenderer: {fileID: 2726960237956110681}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3965064809354636104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015377753982377363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9015377754857530136
 GameObject:
   m_ObjectHideFlags: 0
@@ -22401,6 +23886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6516576545884949506}
   - component: {fileID: 591106721188959184}
+  - component: {fileID: 123742528205307659}
   m_Layer: 0
   m_Name: Move Silently (1)
   m_TagString: Untagged
@@ -22438,6 +23924,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 434439055c5a3954698f4d829005c215, type: 2}
   spriteRenderer: {fileID: 2726960236812625874}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &123742528205307659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015377754857530136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9112023147972912222
 GameObject:
   m_ObjectHideFlags: 0

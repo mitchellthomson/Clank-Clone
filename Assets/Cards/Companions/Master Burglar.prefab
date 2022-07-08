@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3041656485832719836}
   - component: {fileID: 5796360435056213989}
+  - component: {fileID: 1244578467813720672}
   m_Layer: 0
   m_Name: Master Burglar
   m_TagString: Untagged
@@ -47,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: d616ce704abeebd4bb2668a2bc009ead, type: 2}
   spriteRenderer: {fileID: 4111715595533254285}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1244578467813720672
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630747531404588205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7681397337082065468
 GameObject:
   m_ObjectHideFlags: 0

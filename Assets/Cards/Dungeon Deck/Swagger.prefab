@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8883073514398599839}
   - component: {fileID: 7110841051722415748}
+  - component: {fileID: 1668689855771056945}
   m_Layer: 0
   m_Name: Swagger
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 56903c8f794d38645a28f79b6bd7ae5e, type: 2}
   spriteRenderer: {fileID: 3718138902573289231}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &1668689855771056945
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901998365915125174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827069658347219126}
   - component: {fileID: 2072998813112776567}
+  - component: {fileID: -2616651042484606850}
   m_Layer: 0
   m_Name: Belcher
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 18852a651ff8f8140a680c041d5a3e31, type: 2}
   spriteRenderer: {fileID: 3213567668161707250}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-2616651042484606850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277885819819580974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3097632067652189573
 GameObject:
   m_ObjectHideFlags: 0

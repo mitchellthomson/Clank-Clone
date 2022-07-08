@@ -106,6 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5354784858557735567}
   - component: {fileID: 3444546608128357026}
+  - component: {fileID: 4414947381380869400}
   m_Layer: 0
   m_Name: SideStep
   m_TagString: Untagged
@@ -143,6 +144,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: f54171bdb9a3f5d4987ea71bf7c7359e, type: 2}
   spriteRenderer: {fileID: 1466822511285307547}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4414947381380869400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945911896036716616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7020083430607122695
 GameObject:
   m_ObjectHideFlags: 0

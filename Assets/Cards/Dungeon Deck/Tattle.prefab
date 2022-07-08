@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8596746837828573801}
   - component: {fileID: 3879852353538173621}
+  - component: {fileID: 998232447517102426}
   m_Layer: 0
   m_Name: Tattle
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 9919990e7004fae4ebf62c4356f522b7, type: 2}
   spriteRenderer: {fileID: 6345738220228578220}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &998232447517102426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3288081389393963564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6373188764531501919
 GameObject:
   m_ObjectHideFlags: 0

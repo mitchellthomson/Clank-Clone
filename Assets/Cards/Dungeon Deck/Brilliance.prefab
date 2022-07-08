@@ -106,6 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1868586215382558490}
   - component: {fileID: 4232603554718746964}
+  - component: {fileID: -1515141150752843681}
   m_Layer: 0
   m_Name: Brilliance
   m_TagString: Untagged
@@ -143,6 +144,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 13aac42d9f052c44a8416f8825d2e8de, type: 2}
   spriteRenderer: {fileID: 3288433060813088013}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-1515141150752843681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930939618378553418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8114156892036029665
 GameObject:
   m_ObjectHideFlags: 0

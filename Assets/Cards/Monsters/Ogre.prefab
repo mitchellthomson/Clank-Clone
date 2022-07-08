@@ -106,6 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043587349353573678}
   - component: {fileID: 4263791004396246974}
+  - component: {fileID: -850734110288152114}
   m_Layer: 0
   m_Name: Ogre
   m_TagString: Untagged
@@ -143,6 +144,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 191cdb764fbb1de42b565ea685fea1e1, type: 2}
   spriteRenderer: {fileID: 839196453508549391}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-850734110288152114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285903798855569078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2505287407792653331
 GameObject:
   m_ObjectHideFlags: 0

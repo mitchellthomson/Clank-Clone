@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2147634105538075883}
   - component: {fileID: 2757957911297330041}
+  - component: {fileID: 2998931349404529586}
   m_Layer: 0
   m_Name: Dragon Shrine
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: d0ebe2f79de628444ac87eaa3bc9cf47, type: 2}
   spriteRenderer: {fileID: 8039350783654225305}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &2998931349404529586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205242186813923482}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

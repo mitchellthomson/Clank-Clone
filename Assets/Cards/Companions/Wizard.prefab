@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4557779306678573995}
   - component: {fileID: 7256206781019543866}
+  - component: {fileID: 6557843528178439120}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Untagged
@@ -47,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: ac9d46867a7d7564e85ab97e4103021b, type: 2}
   spriteRenderer: {fileID: 3549959842927086518}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6557843528178439120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192871556214306596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2021502207631250516
 GameObject:
   m_ObjectHideFlags: 0

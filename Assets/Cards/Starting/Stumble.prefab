@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2449146343117536925}
   - component: {fileID: 4956740859415623314}
+  - component: {fileID: 4874683922279687437}
   m_Layer: 0
   m_Name: Stumble
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: e2d4b1daf59604843aba99a52cfccb19, type: 2}
   spriteRenderer: {fileID: 5268942612409265376}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4874683922279687437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454124135299510813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8140561770415640088
 GameObject:
   m_ObjectHideFlags: 0

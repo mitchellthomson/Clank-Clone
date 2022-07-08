@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381999667226035626}
   - component: {fileID: 7274049315391407238}
+  - component: {fileID: -3049933567519607478}
   m_Layer: 0
   m_Name: Scramble
   m_TagString: Untagged
@@ -47,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 99b36b3746f1ad44bb58a81bfcb636cb, type: 2}
   spriteRenderer: {fileID: 4445184483415401463}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-3049933567519607478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416520504673234381}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4311812917302695439
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3493945773887125193}
   - component: {fileID: 6572959690430903642}
+  - component: {fileID: -8244113084623806876}
   m_Layer: 0
   m_Name: Sceptor of the Ape Lord
   m_TagString: Untagged
@@ -47,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a3e0bfd18bae2da40bad35a91ec6f794, type: 2}
   spriteRenderer: {fileID: 2735163243271898070}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-8244113084623806876
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880249546712001922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4060637419159049035
 GameObject:
   m_ObjectHideFlags: 0

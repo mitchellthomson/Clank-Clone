@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2724415571866971590}
   - component: {fileID: 673792271823085105}
+  - component: {fileID: 3157229103241442493}
   m_Layer: 0
   m_Name: Underworld Dealing
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 997d1bd2a2c78e5419960961cb4d4611, type: 2}
   spriteRenderer: {fileID: 4441824971155246827}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3157229103241442493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5714350496772040738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

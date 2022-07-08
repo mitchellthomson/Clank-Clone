@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4222435744181595189}
   - component: {fileID: 1089513408056200879}
+  - component: {fileID: -4997904293738517715}
   m_Layer: 0
   m_Name: Mister Whiskers
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: bb5f5a7aa3a82cc41bde0e277e7b46bb, type: 2}
   spriteRenderer: {fileID: 4373448046003499551}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-4997904293738517715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960792315925660402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7137036506659744307
 GameObject:
   m_ObjectHideFlags: 0

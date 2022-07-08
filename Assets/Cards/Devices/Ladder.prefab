@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3607810331663171826}
   - component: {fileID: 1264427759507215730}
+  - component: {fileID: 5999728967606187874}
   m_Layer: 0
   m_Name: Ladder
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 5478b13f034610a4dacb03c0caf61557, type: 2}
   spriteRenderer: {fileID: 1856853437211390900}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &5999728967606187874
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573325411602915245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

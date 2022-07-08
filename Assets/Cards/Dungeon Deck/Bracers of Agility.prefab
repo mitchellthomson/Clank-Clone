@@ -106,6 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6236627693098328854}
   - component: {fileID: 1558641043768932039}
+  - component: {fileID: -8749515090563635326}
   m_Layer: 0
   m_Name: Bracers of Agility
   m_TagString: Untagged
@@ -143,6 +144,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 0a033b5b1668fba4b91fcfdcb8d734ca, type: 2}
   spriteRenderer: {fileID: 997420921590941859}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-8749515090563635326
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6645446571567152595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9146505355922921738
 GameObject:
   m_ObjectHideFlags: 0

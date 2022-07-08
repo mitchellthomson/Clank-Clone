@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 998011099976165789}
   - component: {fileID: 5811908563607616838}
+  - component: {fileID: 6338351777988975086}
   m_Layer: 0
   m_Name: Silver Spear
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: c5453caf6f6dd2a4a914cff4d1d05142, type: 2}
   spriteRenderer: {fileID: 5605618431084858777}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6338351777988975086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258664187026295298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8707367112951952327
 GameObject:
   m_ObjectHideFlags: 0

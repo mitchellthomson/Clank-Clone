@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5023514329828275573}
   - component: {fileID: 138484458300710311}
+  - component: {fileID: -1761754517672362871}
   m_Layer: 0
   m_Name: Orc Grunt
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 08704c65fc7c33c4096f1d13a43978c0, type: 2}
   spriteRenderer: {fileID: 979195189897275907}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-1761754517672362871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975221709742074640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8284984749408320140
 GameObject:
   m_ObjectHideFlags: 0

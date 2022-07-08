@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5094781928202774919}
   - component: {fileID: 4449876513682278769}
+  - component: {fileID: 3610557010429320829}
   m_Layer: 0
   m_Name: Elven Boots
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: dac7d06c7f9aa664bad837a54880d687, type: 2}
   spriteRenderer: {fileID: 4409259262260293941}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &3610557010429320829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095456571420667882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5814915050537521572}
   - component: {fileID: 7212274115338093246}
+  - component: {fileID: 6919915570264120718}
   m_Layer: 0
   m_Name: Cave Troll
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: cbd5175738cd066468e29b1b6dbf0be4, type: 2}
   spriteRenderer: {fileID: 3336487739168886251}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &6919915570264120718
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8494468321660990255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

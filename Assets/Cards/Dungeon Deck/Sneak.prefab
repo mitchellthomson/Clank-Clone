@@ -188,6 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5760601142950389704}
   - component: {fileID: 6006517323034308742}
+  - component: {fileID: 4123183562738603213}
   m_Layer: 0
   m_Name: Sneak
   m_TagString: Untagged
@@ -225,3 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a87bc409abe8a134293e216f233a31a8, type: 2}
   spriteRenderer: {fileID: 6742323861660507409}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4123183562738603213
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908186177699511758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -106,6 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5845475734517027759}
   - component: {fileID: 6348669729997862073}
+  - component: {fileID: -1853983897719724046}
   m_Layer: 0
   m_Name: The Duke
   m_TagString: Untagged
@@ -143,6 +144,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 83b247a26b437ee45b017e55a625f461, type: 2}
   spriteRenderer: {fileID: 2982991785260439595}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-1853983897719724046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8733421707348674020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9186386218803414850
 GameObject:
   m_ObjectHideFlags: 0

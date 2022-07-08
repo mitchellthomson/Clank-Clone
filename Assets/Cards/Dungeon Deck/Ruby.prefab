@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5753720713611389155}
   - component: {fileID: 2877708925448894175}
+  - component: {fileID: 4150775036394066724}
   m_Layer: 0
   m_Name: Ruby
   m_TagString: Untagged
@@ -129,6 +130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: a12c6c4315baa92438d746f6126da2b3, type: 2}
   spriteRenderer: {fileID: 4204293465480125982}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &4150775036394066724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5397919737852326374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6454268010038745966
 GameObject:
   m_ObjectHideFlags: 0

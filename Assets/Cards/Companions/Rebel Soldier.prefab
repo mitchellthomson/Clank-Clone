@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602951580216121444}
   - component: {fileID: 2803326696769247015}
+  - component: {fileID: 9110187167050506253}
   m_Layer: 0
   m_Name: Rebel Soldier
   m_TagString: Untagged
@@ -47,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: 321b5f46213a9ba4fb6ddf4af7b10740, type: 2}
   spriteRenderer: {fileID: 1737692392467209187}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &9110187167050506253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590706130491161270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5624257086704364632
 GameObject:
   m_ObjectHideFlags: 0

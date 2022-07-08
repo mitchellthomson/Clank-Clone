@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6282641670035787650}
   - component: {fileID: 7761123326813935039}
+  - component: {fileID: -1490341959397825411}
   m_Layer: 0
   m_Name: Kobold Merchant
   m_TagString: Untagged
@@ -47,6 +48,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 11400000, guid: bac1c77c53ada1c49bc656f12cb91996, type: 2}
   spriteRenderer: {fileID: 5278198915585745071}
+  cachedScale: {x: 0, y: 0, z: 0}
+--- !u!65 &-1490341959397825411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347283310162750622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.91, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4546879967401562863
 GameObject:
   m_ObjectHideFlags: 0
