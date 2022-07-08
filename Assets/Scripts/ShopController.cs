@@ -26,9 +26,12 @@ public class ShopController : MonoBehaviour
             shopCard.name = deck[0].name;
             shopCard.transform.parent = spot;
             spot.GetComponent<shopPurchase>().curCard = shopCard;
+            shopCard.GetComponent<DisplayCard>().inShop = true;
             deck.RemoveAt(0);
+
+            spot.GetComponent<shopPurchase>().AssignSpot();
         }
-        
+
     }
 
 }

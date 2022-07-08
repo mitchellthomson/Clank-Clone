@@ -4,7 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Card", menuName = "Base Card")]
 public class CardBase : ScriptableObject {
-	public enum MonsterLoot{Test1, Test2, Test3};
+	public enum MonsterLoot{None, Test2, Test3};
 	public enum MonsterCondition{None, CrystalCave, Depths};
 
 	public new string name;
