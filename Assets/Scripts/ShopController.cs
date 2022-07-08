@@ -10,13 +10,25 @@ public class ShopController : MonoBehaviour
 
     [Header("DeckList")]
     public GameObject shopListController;
-    public List<GameObject> shopDeckList;
-    public GameObject reserveListController;
-    public List<GameObject> reserveDeckList; 
-    // Start is called before the first frame update
+
     void Start()
     {
-        shopDeckList = shopListController.GetComponent<ShopDeckController>().shopDeckList;
+        GameStart();
+    }
+
+    public void GameStart()
+    {
+        var deck = shopListController.GetComponent<ShopDeckController>().shopDeckList;
+
+        foreach(Transform spot in shopSpotsLocation)
+        {
+            var shopCard = Instantiate(deck[0], new Vector3(spot.position.x,spot.position.y,spot.position.z), Quaternion.identity);
+            shopCard.name = deck[0].name;
+            shopCard.transform.parent = spot;
+            spot.GetComponent<shopPurchase>().curCard = shopCard;
+            deck.RemoveAt(0);
+        }
+        
     }
 
 }
