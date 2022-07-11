@@ -16,44 +16,50 @@ public class ShopController : MonoBehaviour
     [SerializeField] private Button denyShopButton;
 
     SpriteRenderer displayRenderer;
+    GameObject selectedCard;
 
     [Header("DeckList")]
     public GameObject shopListController;
 
     void Start()
     {
-        GameStart();
+        RefreshShop();
         displayRenderer = shopDisplayCard.GetComponent<SpriteRenderer>();
     }
 
-    public void GameStart()
+    public void RefreshShop()
     {
         var deck = shopListController.GetComponent<ShopDeckController>().shopDeckList;
+        GameObject shopCard;
 
         foreach(Transform spot in shopSpotsLocation)
         {
-            var shopCard = Instantiate(deck[0], new Vector3(spot.position.x,spot.position.y,spot.position.z), Quaternion.identity);
-            shopCard.name = deck[0].name;
-            shopCard.transform.parent = spot;
-            spot.GetComponent<shopPurchase>().curCard = shopCard;
-            shopCard.GetComponent<DisplayCard>().inShop = true;
-            deck.RemoveAt(0);
+            if(spot.childCount < 1)
+            {
+                shopCard = Instantiate(deck[0], new Vector3(spot.position.x,spot.position.y,spot.position.z), Quaternion.identity);
+                shopCard.name = deck[0].name;
+                shopCard.transform.parent = spot;
+                spot.GetComponent<shopPurchase>().curCard = shopCard;
+                shopCard.GetComponent<DisplayCard>().inShop = true;
+                deck.RemoveAt(0);
 
-            spot.GetComponent<shopPurchase>().AssignSpot();
+                spot.GetComponent<shopPurchase>().AssignSpot();
+            }
         }
 
     }
 
-    public void DisplaySelectedShopCard(Sprite selectedCard, bool selected = false)
+    public void DisplaySelectedShopCard(Sprite selectedCardSprite, bool selected = false, GameObject curCard = null)
     {
         if(selected == true)
         {
             isCardSelectedBuy = true;
+            selectedCard = curCard;
         }
 
         if(isCardSelectedBuy == false)
         {
-            displayRenderer.sprite = selectedCard;
+            displayRenderer.sprite = selectedCardSprite;
         }
         
     }
@@ -63,6 +69,13 @@ public class ShopController : MonoBehaviour
         isCardSelectedBuy = false;
         displayRenderer.sprite = null;
     }
-    
 
+    public void ConfirmButton()
+    {
+        Destroy(selectedCard);
+        displayRenderer.sprite = null;
+        isCardSelectedBuy = false;
+    }
+    
+    
 }

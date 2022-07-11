@@ -21,7 +21,7 @@ public class shopPurchase : MonoBehaviour
         if(curCard!= null && curCard.GetComponent<DisplayCard>().inShop == true)
         {
             Debug.Log("card" + curCard.name + "selected");
-            shopController.DisplaySelectedShopCard(displaySprite, true);
+            shopController.DisplaySelectedShopCard(displaySprite, true, curCard);
         }
     }
 
