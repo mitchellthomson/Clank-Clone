@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ShopController : MonoBehaviour
 {
     public List<Transform> shopSpotsLocation;
     public List<Transform> reserveSpotsLocation;
 
+    [Header("Display Card")]
+    public GameObject shopDisplayCard;
+    public bool isCardSelectedBuy;
+
+    [SerializeField] private Button confirmShopButton;
+    [SerializeField] private Button denyShopButton;
+
+    SpriteRenderer displayRenderer;
 
     [Header("DeckList")]
     public GameObject shopListController;
@@ -14,6 +23,7 @@ public class ShopController : MonoBehaviour
     void Start()
     {
         GameStart();
+        displayRenderer = shopDisplayCard.GetComponent<SpriteRenderer>();
     }
 
     public void GameStart()
@@ -33,5 +43,26 @@ public class ShopController : MonoBehaviour
         }
 
     }
+
+    public void DisplaySelectedShopCard(Sprite selectedCard, bool selected = false)
+    {
+        if(selected == true)
+        {
+            isCardSelectedBuy = true;
+        }
+
+        if(isCardSelectedBuy == false)
+        {
+            displayRenderer.sprite = selectedCard;
+        }
+        
+    }
+
+    public void CancelButton()
+    {
+        isCardSelectedBuy = false;
+        displayRenderer.sprite = null;
+    }
+    
 
 }
