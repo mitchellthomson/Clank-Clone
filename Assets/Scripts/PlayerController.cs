@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public Player player;
+
+    public GameObject playerPiece;
+    public Transform curRoom;
     public static void Start()
     {
         

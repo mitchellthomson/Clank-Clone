@@ -1,0 +1,20 @@
+Major Count - 11
+Heal x2
+Chalice x3
+Draw x2
+Treasure x2
+skill x2
+
+Minor Count - 18
+Delete x2
+strength x2
+swiftness x2
+heal x3
+dragon egg x3
+minor skill x3
+minor coint x3
+
+Market - 7
+keys x2
+backpack x2
+crown x3
