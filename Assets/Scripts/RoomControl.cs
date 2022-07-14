@@ -8,7 +8,7 @@ public class RoomControl : MonoBehaviour
     [Header("Room Info")]
     public RoomType roomType;
 
-    public bool isNotDepths;
+    public bool isDepths;
     [Header("Player Info")]
     public int playerCount;
 

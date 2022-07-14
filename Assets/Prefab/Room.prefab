@@ -412,8 +412,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4632630266422689960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -260.5, y: -0.1, z: 218.2}
-  m_LocalScale: {x: 3.5874104, y: 1, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.1, z: 0.15}
   m_Children:
   - {fileID: 4632630266054877063}
   - {fileID: 6343733640797619336}
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomType: 0
-  isNotDepths: 0
+  isDepths: 0
   playerCount: 0
   roomConnections: []
   pathConnections: []

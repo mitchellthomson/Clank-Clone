@@ -9,5 +9,4 @@ public class Paths : ScriptableObject
     public int monster;
     public bool key;
 
-
 }

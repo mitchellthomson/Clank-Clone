@@ -54,3 +54,4 @@ MonoBehaviour:
   - {fileID: 7534901576530990269, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
   - {fileID: 5638550497940058847, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
   - {fileID: 5638550498431246910, guid: 98b20bf2f7380cf4e8eef0f061052552, type: 3}
+  playerDiscardList: []
