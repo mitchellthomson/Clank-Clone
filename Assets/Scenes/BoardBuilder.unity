@@ -153,7 +153,7 @@ Transform:
   - {fileID: 2041363097}
   - {fileID: 767497311}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &67638645
 PrefabInstance:
@@ -163,9 +163,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 776067710}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 407697810}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room
@@ -226,6 +246,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 67638645}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &83185922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 869162854}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &102067497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -234,9 +259,37 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 796505188}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1278273989}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1903511860}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (10)
@@ -292,6 +345,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 102067497}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &102067499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 102067497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &132160158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -308,9 +366,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: isHealingRoom
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: e1dd6d8626a321842b62f1ca77d41bb1, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1097979287}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1982722619}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (3)
@@ -382,9 +464,53 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 284171812}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 464738859}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1914886689}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 884483962}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 83185922}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (7)
@@ -440,6 +566,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 133704103}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &142135252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 132160158}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &227831937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -456,9 +587,29 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: e1dd6d8626a321842b62f1ca77d41bb1, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1982722619}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1914886689}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depth Cavern (5)
@@ -522,9 +673,45 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 407697810}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1177846506}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1906959481}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 964615090}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (2)
@@ -579,6 +766,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 258900776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &258900778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 258900776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &284171812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 375734584}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &301931523
 GameObject:
@@ -661,7 +858,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &375734584
 PrefabInstance:
@@ -679,9 +876,45 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1448121043}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1432662683}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1199455894}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 83185922}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (6)
@@ -745,9 +978,37 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 67638647}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 2016992679}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 258900778}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (1)
@@ -802,6 +1063,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 407697808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &407697810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 407697808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &464738859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1075715489}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &476661078
 GameObject:
@@ -894,7 +1165,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &531181664
 PrefabInstance:
@@ -908,9 +1179,29 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 407697810}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1801141728}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Cavern
@@ -966,6 +1257,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 531181664}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &531181666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 531181664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &663065908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -982,9 +1278,53 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: e1dd6d8626a321842b62f1ca77d41bb1, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1918488752}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1039894072}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 83185922}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 1842742124}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 2021186118}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depth Cavern
@@ -1040,6 +1380,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 663065908}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &663065910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 663065908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &684195006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1056,9 +1401,45 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: e1dd6d8626a321842b62f1ca77d41bb1, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 884483962}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1914886689}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 975327778}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 142135252}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (8)
@@ -1113,6 +1494,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 684195006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &693967204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1647707900}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &767497310
 GameObject:
@@ -1261,6 +1647,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 776067708}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &776067710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 776067708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &796505186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1269,9 +1660,45 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1842742124}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1906959481}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 102067499}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 1903511860}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (9)
@@ -1327,6 +1754,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 796505186}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &796505188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 796505186}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &869162854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1343,9 +1775,61 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1399420567}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 663065910}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1039894072}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 284171812}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 1199455894}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[5]
+      value: 
+      objectReference: {fileID: 1029650968}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Market (1)
@@ -1417,9 +1901,37 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1903511860}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1918488752}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1436086852}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depth Cavern (1)
@@ -1475,6 +1987,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 874938944}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &874938946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 874938944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &880956940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1491,9 +2008,37 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 83185922}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 884483962}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1433620365}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Market (2)
@@ -1549,36 +2094,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 880956940}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &913192257
+--- !u!1 &884483962 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1244845301}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 913192258}
-  m_Layer: 0
-  m_Name: nullObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &913192258
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913192257}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -79.9901, y: -181.77414, z: 206.2427}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &964615088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1587,9 +2107,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 258900778}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1906959481}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (3)
@@ -1645,6 +2185,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 964615088}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &964615090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 964615088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &975327778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 227831937}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1015472971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1661,9 +2211,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: e1dd6d8626a321842b62f1ca77d41bb1, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 663065910}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 83185922}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (2)
@@ -1719,6 +2289,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1015472971}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1029650968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 880956940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1039894072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1015472971}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1075715489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1735,9 +2315,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1432662683}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1199455894}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (11)
@@ -1793,6 +2393,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1075715489}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1097979287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1661274497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1177846504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1801,9 +2406,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 258900778}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1842742124}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (5)
@@ -1859,6 +2484,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1177846504}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1177846506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1177846504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1199455894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 133704103}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1244845301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1875,9 +2510,37 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1199455894}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1982722619}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1029650968}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depth Cavern (4)
@@ -1941,9 +2604,37 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1577627068}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1906959481}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 102067499}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (6)
@@ -1999,6 +2690,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1278273987}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1278273989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1278273987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1399420565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2015,9 +2711,29 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1842742124}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 83185922}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Market
@@ -2073,6 +2789,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1399420565}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1399420567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1399420565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1432662683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1707542125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1433620363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2089,9 +2815,37 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1029650968}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1097979287}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1903511860}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Market (3)
@@ -2147,6 +2901,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1433620363}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1433620365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1433620363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1436086852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1556724063}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1448121041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2163,9 +2927,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1775187284}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1432662683}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (9)
@@ -2221,6 +3005,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1448121041}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1448121043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1448121041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1556724063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2237,9 +3026,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 874938946}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 693967204}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (4)
@@ -2303,9 +3112,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 964615090}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1278273989}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (4)
@@ -2361,6 +3190,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1577627066}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1577627068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1577627066}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1647707900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2377,9 +3211,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1436086852}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (5)
@@ -2451,9 +3297,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1433620365}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depth Cavern (3)
@@ -2525,9 +3383,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 284171812}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 464738859}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (10)
@@ -2599,9 +3477,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1918488752}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depth Cavern (2)
@@ -2657,6 +3547,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1775187282}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1775187284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1775187282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1801141726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2665,9 +3560,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 531181666}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1918488752}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (7)
@@ -2723,6 +3638,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1801141726}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1801141728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1801141726}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1842742122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2735,9 +3655,53 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 2016992679}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1177846506}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 796505188}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 1399420567}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 663065910}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Cavern (3)
@@ -2793,6 +3757,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1842742122}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1842742124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1842742122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1903511858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2809,9 +3778,45 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99a4ddf148cf02c45b22dba46561b665, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1433620365}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 796505188}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 102067499}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 874938946}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (1)
@@ -2867,6 +3872,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1903511858}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1903511860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1903511858}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1906959479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2879,9 +3889,45 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 258900778}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 964615090}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1278273989}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 796505188}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Cavern (2)
@@ -2937,6 +3983,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1906959479}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1906959481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1906959479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1914886689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 2128986141}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1918488750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2953,9 +4009,61 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 874938946}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1801141728}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 2021186118}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[3]
+      value: 
+      objectReference: {fileID: 663065910}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[4]
+      value: 
+      objectReference: {fileID: 1775187284}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[5]
+      value: 
+      objectReference: {fileID: 1448121043}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths
@@ -3011,6 +4119,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 1918488750}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1918488752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 1918488750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1982722619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 684195006}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2016992677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3023,9 +4141,37 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 407697810}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 2021186118}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 1842742124}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Cavern (1)
@@ -3081,6 +4227,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 2016992677}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2016992679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 2016992677}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2021186116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3089,9 +4240,37 @@ PrefabInstance:
     m_TransformParent: {fileID: 767497311}
     m_Modifications:
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: pathConnections.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: bdd41dc6c70584247ba1ef49e1016878, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f79b90ef6b04313479dded8225e9a63d, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 2016992679}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1918488752}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 663065910}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Room (8)
@@ -3145,6 +4324,11 @@ PrefabInstance:
 --- !u!4 &2021186117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632630266422689963, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+  m_PrefabInstance: {fileID: 2021186116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2021186118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
   m_PrefabInstance: {fileID: 2021186116}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2041363096
@@ -3245,9 +4429,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
-      propertyPath: roomConnections.Array.size
-      value: 0
+      propertyPath: isHealingRoom
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20ef5076386e87347b6361c4159a3ba4, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ae70e589c7a358409b26dbd4d785227, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: pathConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: e1dd6d8626a321842b62f1ca77d41bb1, type: 2}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[0]
+      value: 
+      objectReference: {fileID: 1199455894}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[1]
+      value: 
+      objectReference: {fileID: 1982722619}
+    - target: {fileID: 2248818349867927351, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
+      propertyPath: roomConnections.Array.data[2]
+      value: 
+      objectReference: {fileID: 975327778}
     - target: {fileID: 4632630266422689960, guid: 661a4838a6d2142438f521996c7d1639, type: 3}
       propertyPath: m_Name
       value: Depths (12)

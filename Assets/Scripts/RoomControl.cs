@@ -5,10 +5,13 @@ using UnityEngine;
 public class RoomControl : MonoBehaviour
 {
     public enum RoomType {Standard, Cave, Market};
+    
+
     [Header("Room Info")]
     public RoomType roomType;
-
     public bool isDepths;
+    public bool isHealingRoom;
+
     [Header("Player Info")]
     public int playerCount;
 
@@ -21,7 +24,11 @@ public class RoomControl : MonoBehaviour
     public Paths[] pathConnections;
 
     [Header("Loot")]
-    public int minor;
-    public int major;
-    public int artifact;
+    public int minorCount;
+    public List<GameObject> minorSecrets;
+    public int majorCount;
+    public List<GameObject> majorSecret;
+    public int artifactCount;
+    public List<GameObject> artifact;
+
 }
