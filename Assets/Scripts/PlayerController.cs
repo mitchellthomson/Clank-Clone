@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject playerPiece;
     public Transform curRoom;
+    
     public static void Start()
     {
         

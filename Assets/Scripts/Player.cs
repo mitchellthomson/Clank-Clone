@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     [Header("Game Info")]
     public int turnOrder;
     public GameObject playerDeck;
-    public GameObject curSpot;
 
     [Header("Player Stats")]
     public int health;
